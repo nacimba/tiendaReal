@@ -16,7 +16,7 @@ const routes: Routes = [
       import('./@public/pages/contact/contact.module').then(m => m.ContactModule)
   },
 
-  {
+ /* {
     path: 'admin', loadChildren: () =>
       import('./@admin/pages/dashboard/dashboard.module').then(m => m.DashboardModule)
   },
@@ -24,7 +24,7 @@ const routes: Routes = [
     path: 'admin/users', loadChildren: () =>
       import('./@admin/pages/users/users.module').then(m => m.UsersModule)
   },
-
+*/
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ,
   /*Siempre al final */
